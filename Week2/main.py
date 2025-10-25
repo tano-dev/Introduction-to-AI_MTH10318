@@ -1,7 +1,7 @@
 from solve import Solution
 import argparse
 import itertools
-import emoji
+
 
 arg = argparse.ArgumentParser()
 arg.add_argument("-m", "--method", required=False, help="Specify which method to use")

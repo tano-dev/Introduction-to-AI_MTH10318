@@ -1,11 +1,10 @@
 import os
 import emoji # type: ignore
 import pydot # type: ignore
-import random
 from collections import deque
 
 # Set it to bin folder of graphviz
-os.environ["PATH"] += os.pathsep + '/opt/homebrew/bin'
+os.environ["PATH"] += os.pathsep + 'C:\Program Files\Graphviz\bin'
 
 # Dictionaries to backtrack solution nodes
 # Parent stores parent of (m, c, s)
