@@ -16,7 +16,7 @@ i = 0
 
 arg = argparse.ArgumentParser()
 arg.add_argument("-d", "--depth", required=False,
-                 help="MAximum depth upto which you want to generate Space State Tree")
+                 help="MAXIMUM depth upto which you want to generate Space State Tree")
 
 args = vars(arg.parse_args())
 
